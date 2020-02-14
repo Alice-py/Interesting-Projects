@@ -1,0 +1,31 @@
+
+</div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+    </div>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript">
+        var thumbsSwiper = new Swiper('#thumbs', {
+            spaceBetween: 10,
+            slidesPerView: 5,
+            watchSlidesVisibility: true, //防止不可点击
+        })
+        var gallerySwiper = new Swiper('#gallery', {
+            effect: 'coverflow',
+            spaceBetween: 10, //缩略图间距
+            slidesPerView: 3,
+            centeredSlides: true,
+            initialSlide: 2,
+            loop: true,
+            autoplay: true,
+            thumbs: {
+                swiper: thumbsSwiper,
+            }
+        })
+    </script>
+    <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';"></div>
+    <div class="banner"><p>除了logo，都是爬别人的，本站每天自动更新，完全随机，遵守开源协议，仅供学习</div>
+    <div class="bottom"><b>版权&nbsp;&nbsp;&nbsp;@广东理工职业学院&nbsp;17网络2班 Honeypot&nbsp;&nbsp;&nbsp;Github:Alice-py</b>
+    </div>
+</div>
+</body>
+</html>
