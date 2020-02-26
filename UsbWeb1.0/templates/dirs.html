@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ path }}</title>
+</head>
+<body>
+    <br/>
+    {% for file in files %}
+        <a href="./{{ file }}">★ {{ file }}</a><br/>
+    {% endfor %}
+    <br/>
+</body>
+</html>
