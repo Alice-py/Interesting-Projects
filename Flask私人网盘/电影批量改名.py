@@ -21,7 +21,7 @@ class RName:
             blues_z = re.compile(small_num)
             blues = blues_z.findall(source_name)[0]
 
-        New_name = self.movie_name + ' ' + blues + suffix
+        New_name = self.movie_name + '_' + blues + suffix
         return New_name
 
     def rname(self):
@@ -30,7 +30,7 @@ class RName:
             New_name = self.change_name(file_name)
             if (New_name != file_name):
                 os.rename(self.dir_path + file_name, self.dir_path + New_name)
-            print("原:", file_name, '   ', "改为：", New_name)
+            print("原:", file_name, '  ', "改为：", New_name)
 
 
 if __name__ == '__main__':
