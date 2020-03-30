@@ -16,6 +16,8 @@ from scrapy import Request
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 
+count = 0
+
 
 class MzSpider(CrawlSpider):
     name = 'MZ'
@@ -52,7 +54,7 @@ class MzSpider(CrawlSpider):
     start_urls = [url_link]  # 入口是动漫，如果想要其他请自行更换
     rules = (
         Rule(LinkExtractor(allow=r"http://www.win4000.com/.+/.+_[0-9].html", restrict_xpaths="//div[@class='pages']"),
-             callback=None, follow=False),  # 获取页
+             callback=None, follow=True),  # 获取页
         Rule(LinkExtractor(allow=r"http://www.win4000.com/wallpaper_detail_[0-9]+.html",
                            restrict_xpaths="//div[@class='list_cont Left_list_cont  Left_list_cont1']//a"),
              callback="get_pic_url", follow=True),  # 获取合集
@@ -73,6 +75,13 @@ class MzSpider(CrawlSpider):
         #     fp.writelines(pic_url_n + "\n")
 
     def down_pic(self, response):
+        # global count
+        # # 计数
+        # count += 1
+        # if count >= 30:
+        #     import sys
+        #     sys.exit()
+
         pic_down_url = response.xpath("//img[@class='pic-large']/@src").get()
         # 再将图片传递给下载器
         item = BeautifulTableItem()
