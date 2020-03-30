@@ -75,12 +75,11 @@ class MzSpider(CrawlSpider):
         #     fp.writelines(pic_url_n + "\n")
 
     def down_pic(self, response):
-        # global count
-        # # 计数
-        # count += 1
-        # if count >= 30:
-        #     import sys
-        #     sys.exit()
+        global count
+        # 计数
+        count += 1
+        if count >= 30:
+            self.crawler.engine.close_spider(self)
 
         pic_down_url = response.xpath("//img[@class='pic-large']/@src").get()
         # 再将图片传递给下载器
