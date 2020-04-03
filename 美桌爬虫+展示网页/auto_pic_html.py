@@ -1,9 +1,11 @@
 """
-@Time       ：2019-6-29
+@Time       ：2020-4-3
 @Author     ：Honeypot
 @GitHub     : Alice-py
 @e-mail     ：1104389956@qq.com
-@version    : 1.0   自动化生成图片网站，可配合本人美桌爬虫模块使用
+@version    :  1.1  添加图片大小筛选机制      2020-4-3
+                1.0   自动化生成图片网站，可配合本人美桌爬虫模块使用       2019-6-29
+
 """
 import os
 import random
@@ -39,7 +41,7 @@ class CreateHtml:
                 body_list.append(link)
         with open(self.index_path, 'a+', encoding='utf-8') as ix:
             body_back = '<body background = "img/' + random_pic + \
-                '" witch = "2000" height = "1000" style = " background-repeat:no-repeat ;' + '\n'
+                        '" witch = "2000" height = "1000" style = " background-repeat:no-repeat ;' + '\n'
             ix.writelines(body_back)
             for link in body_list:
                 ix.writelines(link)
@@ -73,7 +75,24 @@ class CreateHtml:
             for link in bottom_list:
                 ix.writelines(link)
 
+    def size_screening(self):
+        path = './img/'
+        pic_dir = os.listdir(path)
+        m_pic_num = 0
+        for pic in pic_dir:
+            pic_size = os.path.getsize(path + pic)
+            # if pic_size < 1048576:    # 1M=1048576字节
+            if pic_size < 204800:
+                m_pic_num += 1
+                try:
+                    os.remove(path + pic)
+                except BaseException:
+                    print('权限不够')
+        print('小于200KB的图片共', m_pic_num)
+        return 0
+
     def CH_main(self):
+        self.size_screening()  # 筛选大小
         file_list = self.file_dir()
         self.html_head()
         bac = file_list[random.randint(0, len(file_list) - 1)]
@@ -82,6 +101,7 @@ class CreateHtml:
         self.html_center()
         self.write_html_one(file_list)
         self.html_bottom()
+
 
 
 if __name__ == '__main__':

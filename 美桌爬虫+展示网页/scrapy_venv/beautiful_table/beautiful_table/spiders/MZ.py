@@ -78,7 +78,7 @@ class MzSpider(CrawlSpider):
         global count
         # 计数
         count += 1
-        if count >= 30:
+        if count >= 50:
             self.crawler.engine.close_spider(self)
 
         pic_down_url = response.xpath("//img[@class='pic-large']/@src").get()

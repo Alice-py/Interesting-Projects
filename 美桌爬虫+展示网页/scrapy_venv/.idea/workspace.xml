@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c98fb49f-e023-4a66-941d-eb682e8b9285" name="默认更改列表" comment="" />
+    <list default="true" id="c98fb49f-e023-4a66-941d-eb682e8b9285" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Flask私人网盘/说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Flask私人网盘/说明.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_pic_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/../auto_pic_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/revolution.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/robust.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/sphereality.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/square_one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/where_to_go.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/匿名者.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/星空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/植物大战僵尸.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beautiful_table/beautiful_table/spiders/MZ.py" beforeDir="false" afterPath="$PROJECT_DIR$/beautiful_table/beautiful_table/spiders/MZ.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +27,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1ZncKNobuvU7MRGZIsKaSaS9i47" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -30,6 +49,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.start">
     <configuration name="MZ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -46,6 +66,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beautiful_table/beautiful_table/spiders/MZ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="auto_pic_html" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scrapy_venv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../auto_pic_html.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,6 +143,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.start" />
+        <item itemvalue="Python.auto_pic_html" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.MZ" />
       </list>
@@ -118,6 +161,12 @@
       <updated>1585478233583</updated>
       <workItem from="1585478238359" duration="13963000" />
       <workItem from="1585535678357" duration="4071000" />
+      <workItem from="1585543760862" duration="321000" />
+      <workItem from="1585544097576" duration="462000" />
+      <workItem from="1585544768601" duration="316000" />
+      <workItem from="1585911030752" duration="1530000" />
+      <workItem from="1585912912443" duration="18000" />
+      <workItem from="1585913435554" duration="22000" />
     </task>
     <servers />
   </component>
@@ -125,22 +174,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1214" height="196" key="GridCell.Tab.0.bottom" timestamp="1585539764164">
+    <state width="1215" height="161" key="GridCell.Tab.0.bottom" timestamp="1585912564859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1214" height="196" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585539764164" />
-    <state width="1214" height="196" key="GridCell.Tab.0.center" timestamp="1585539764164">
+    <state width="1215" height="161" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585912564859" />
+    <state width="1215" height="161" key="GridCell.Tab.0.center" timestamp="1585912564859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1214" height="196" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585539764164" />
-    <state width="1214" height="196" key="GridCell.Tab.0.left" timestamp="1585539764164">
+    <state width="1215" height="161" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585912564859" />
+    <state width="1215" height="161" key="GridCell.Tab.0.left" timestamp="1585912564859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1214" height="196" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585539764164" />
-    <state width="1214" height="196" key="GridCell.Tab.0.right" timestamp="1585539764164">
+    <state width="1215" height="161" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585912564859" />
+    <state width="1215" height="161" key="GridCell.Tab.0.right" timestamp="1585912564859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1214" height="196" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585539764164" />
+    <state width="1215" height="161" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585912564859" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1585496202946">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -157,13 +206,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585496202945" />
+    <state x="270" y="74" key="SettingsEditor" timestamp="1585543855537">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585543855537" />
     <state x="-102" y="178" width="672" height="678" key="search.everywhere.popup" timestamp="1585479388676">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="-102" y="178" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1585479388676" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/scrapy_venv$start.coverage" NAME="start Coverage Results" MODIFIED="1585539514179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautiful_table" />
+    <SUITE FILE_PATH="coverage/scrapy_venv$auto_pic_html.coverage" NAME="auto_pic_html Coverage Results" MODIFIED="1585911367338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/scrapy_venv$start.coverage" NAME="start Coverage Results" MODIFIED="1585911390001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautiful_table" />
     <SUITE FILE_PATH="coverage/scrapy_venv$test.coverage" NAME="test Coverage Results" MODIFIED="1585539075112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/scrapy_venv$MZ.coverage" NAME="MZ Coverage Results" MODIFIED="1585491382802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautiful_table/beautiful_table/spiders" />
   </component>
