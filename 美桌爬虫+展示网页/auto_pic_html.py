@@ -81,14 +81,14 @@ class CreateHtml:
         m_pic_num = 0
         for pic in pic_dir:
             pic_size = os.path.getsize(path + pic)
-            # if pic_size < 1048576:    # 1M=1048576字节
-            if pic_size < 204800:
+            if pic_size < 1048576:    # 1M=1048576字节
+                # if pic_size < 204800:
                 m_pic_num += 1
                 try:
                     os.remove(path + pic)
                 except BaseException:
                     print('权限不够')
-        print('小于200KB的图片共', m_pic_num)
+        print('小于1M的图片共', m_pic_num)
         return 0
 
     def CH_main(self):
@@ -101,7 +101,6 @@ class CreateHtml:
         self.html_center()
         self.write_html_one(file_list)
         self.html_bottom()
-
 
 
 if __name__ == '__main__':
